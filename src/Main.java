@@ -25,4 +25,5 @@ public class Main {
         System.out.println("|" + grille[2][0] + "|" + grille[2][1] + "|" + grille[2][2] + "| 3");
         System.out.println("-------");
     }
+
 }
