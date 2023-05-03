@@ -15,7 +15,8 @@ public class Main {
         while(!fin){
             affiche(grille);
             saisie(joueur, grille);
-            fin = gagne(grille);
+            next_player(joueur);
+            fin = gagne(grille) || !case_libre(grille);
         }
         if(gagne(grille)) System.out.println("Bravo !" );
     }
@@ -79,9 +80,9 @@ public class Main {
         else return false;
         }
 
-    static int next_player(int joueur){
-        if(joueur == 1) return 2;
-        else return 1;
+    static void next_player(int joueur){
+        if(joueur == 1) joueur = 2;
+        else joueur = 1;
     }
 }
 
