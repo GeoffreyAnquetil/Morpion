@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4edc4b7f-217a-46c4-a345-43d30718c5e0" name="Changes" comment="Ajout de la classe ScanUser pour récupérer une saisie utilisateur">
+    <list default="true" id="4edc4b7f-217a-46c4-a345-43d30718c5e0" name="Changes" comment="Ajout de la méthode saisie pour saisir la case à jouer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ScanUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScanUser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683115660226</updated>
-      <workItem from="1683115661236" duration="3487000" />
+      <workItem from="1683115661236" duration="3953000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout de la classe ScanUser pour récupérer une saisie utilisateur">
       <created>1683116973394</created>
@@ -82,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683116973394</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ajout de la méthode saisie pour saisir la case à jouer">
+      <created>1683119214896</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683119214896</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +108,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Jeu de morpion, init et procédure d'affichage de la grille de jeu" />
     <MESSAGE value="Ajout de la classe ScanUser pour récupérer une saisie utilisateur" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout de la classe ScanUser pour récupérer une saisie utilisateur" />
+    <MESSAGE value="Ajout de la méthode saisie pour saisir la case à jouer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de la méthode saisie pour saisir la case à jouer" />
   </component>
 </project>

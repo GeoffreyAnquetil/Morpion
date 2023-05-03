@@ -11,10 +11,14 @@ public class Main {
         int joueur1 = 1;
         int joueur2 = 2;
 
-        affiche(grille);
-        saisie(joueur1, grille);
-        affiche(grille);
+        boolean fin = false;
 
+        // Test de case_libre
+        while(!fin){
+            affiche(grille);
+            saisie(joueur1, grille);
+            fin = !case_libre(grille);
+        }
     }
 
     static void affiche(int grille[][]){
@@ -51,6 +55,14 @@ public class Main {
         }
     }
 
+    static boolean case_libre(int grille[][]){
+        for(int[] ligne : grille){
+            for(int elt : ligne){
+                if(elt == 0) return true;
+            }
+        }
+        return false;
+    }
 }
 
 
