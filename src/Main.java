@@ -11,14 +11,17 @@ public class Main {
         boolean fin = false;
         int joueur = 1;
 
-        // Test de case_libre
+        //Jeu en lui-même
         while(!fin){
             affiche(grille);
             saisie(joueur, grille);
             joueur = next_player(joueur);
             fin = gagne(grille) || !case_libre(grille);
         }
-        if(gagne(grille)) System.out.println("Bravo !");
+        affiche(grille);
+        if(gagne(grille)) System.out.println("Bravo joueur " + next_player(joueur) + " !");
+        else System.out.println("C'est une égalité !");
+        
     }
 
     static void affiche(int grille[][]){

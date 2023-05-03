@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4edc4b7f-217a-46c4-a345-43d30718c5e0" name="Changes" comment="Correction de la méthode next_player en Modification In Situ">
+    <list default="true" id="4edc4b7f-217a-46c4-a345-43d30718c5e0" name="Changes" comment="Correction de la méthode next_player">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -72,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683115660226</updated>
-      <workItem from="1683115661236" duration="5341000" />
+      <workItem from="1683115661236" duration="5686000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout de la classe ScanUser pour récupérer une saisie utilisateur">
       <created>1683116973394</created>
@@ -116,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683120957129</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Correction de la méthode next_player">
+      <created>1683121064629</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683121064629</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +148,7 @@
     <MESSAGE value="Ajout de la méthode gagne pour savoir si un jour a gagné" />
     <MESSAGE value="Ajout de la méthode next_player qui permet de passer au joueur suivant" />
     <MESSAGE value="Correction de la méthode next_player en Modification In Situ" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correction de la méthode next_player en Modification In Situ" />
+    <MESSAGE value="Correction de la méthode next_player" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correction de la méthode next_player" />
   </component>
 </project>
