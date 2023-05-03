@@ -8,17 +8,16 @@ public class Main {
             }
         }
 
-        int joueur1 = 1;
-        int joueur2 = 2;
-
         boolean fin = false;
+        int joueur = 1;
 
         // Test de case_libre
         while(!fin){
             affiche(grille);
-            saisie(joueur1, grille);
-            fin = !case_libre(grille);
+            saisie(joueur, grille);
+            fin = gagne(grille);
         }
+        if(gagne(grille)) System.out.println("Bravo !" );
     }
 
     static void affiche(int grille[][]){
@@ -63,6 +62,23 @@ public class Main {
         }
         return false;
     }
-}
+
+    static boolean gagne(int grille[][]){
+        for(int[] ligne : grille){
+            if((ligne[0] != 0) && (ligne[0] == ligne[1]) && (ligne[0] == ligne[2]))
+                return true;
+        }
+        for(int i=0; i<3; i++){
+            if((grille[0][i] != 0) && (grille[0][i] == grille[1][i]) && (grille[0][i] == grille[2][i]))
+                return true;
+        }
+        if((grille[0][0] != 0) && (grille[0][0] == grille[1][1]) && (grille[0][0] == grille[2][2]))
+            return true;
+        if((grille[0][2] != 0) && (grille[0][2] == grille[1][1]) && (grille[0][2] == grille[2][0]))
+            return true;
+        else return false;
+        }
+
+    }
 
 
