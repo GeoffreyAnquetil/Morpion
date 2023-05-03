@@ -12,6 +12,8 @@ public class Main {
         int joueur2 = 2;
 
         affiche(grille);
+        saisie(joueur1, grille);
+        affiche(grille);
 
     }
 
@@ -26,4 +28,29 @@ public class Main {
         System.out.println("-------");
     }
 
+    static void saisie(int joueur, int grille[][]){
+        ScanUser scanUser = new ScanUser();
+        boolean valide = false;
+        String coup;
+        int ligne;
+        int colonne;
+        while(!valide){
+            System.out.println("Joueur " + joueur + " (format \"ligne colonne\") : ");
+            coup = scanUser.saisieString();
+            ligne = Character.getNumericValue(coup.charAt(0));
+            colonne = Character.getNumericValue(coup.charAt(2));
+            System.out.println("x y " + ligne + " " + colonne);
+            if(((ligne != 1) && (ligne != 2) && (ligne != 3)) || ((colonne != 1) && (colonne != 2) && (colonne != 3))){
+                System.out.println("Veuillez saisir un emplacement correct");
+            } else if (grille[ligne-1][colonne-1] != 0){
+                System.out.println("Veuillez saisir un emplacement libre");
+            } else {
+                grille[ligne-1][colonne-1] = joueur;
+                valide = true;
+            }
+        }
+    }
+
 }
+
+
