@@ -15,10 +15,10 @@ public class Main {
         while(!fin){
             affiche(grille);
             saisie(joueur, grille);
-            next_player(joueur);
+            joueur = next_player(joueur);
             fin = gagne(grille) || !case_libre(grille);
         }
-        if(gagne(grille)) System.out.println("Bravo !" );
+        if(gagne(grille)) System.out.println("Bravo !");
     }
 
     static void affiche(int grille[][]){
@@ -80,9 +80,9 @@ public class Main {
         else return false;
         }
 
-    static void next_player(int joueur){
-        if(joueur == 1) joueur = 2;
-        else joueur = 1;
+    static int next_player(int joueur){
+        if(joueur == 1) return 2;
+        else return 1;
     }
 }
 
