@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4edc4b7f-217a-46c4-a345-43d30718c5e0" name="Changes" comment="Ajout de la méthode case_libre pour vérifier une égalité et mettre fin à la partie">
+    <list default="true" id="4edc4b7f-217a-46c4-a345-43d30718c5e0" name="Changes" comment="Ajout de la méthode gagne pour savoir si un jour a gagné">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -72,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683115660226</updated>
-      <workItem from="1683115661236" duration="5038000" />
+      <workItem from="1683115661236" duration="5138000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout de la classe ScanUser pour récupérer une saisie utilisateur">
       <created>1683116973394</created>
@@ -95,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683119658055</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ajout de la méthode gagne pour savoir si un jour a gagné">
+      <created>1683120753522</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683120753522</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +124,7 @@
     <MESSAGE value="Ajout de la classe ScanUser pour récupérer une saisie utilisateur" />
     <MESSAGE value="Ajout de la méthode saisie pour saisir la case à jouer" />
     <MESSAGE value="Ajout de la méthode case_libre pour vérifier une égalité et mettre fin à la partie" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout de la méthode case_libre pour vérifier une égalité et mettre fin à la partie" />
+    <MESSAGE value="Ajout de la méthode gagne pour savoir si un jour a gagné" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de la méthode gagne pour savoir si un jour a gagné" />
   </component>
 </project>

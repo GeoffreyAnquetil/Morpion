@@ -79,6 +79,10 @@ public class Main {
         else return false;
         }
 
+    static int next_player(int joueur){
+        if(joueur == 1) return 2;
+        else return 1;
     }
+}
 
 
